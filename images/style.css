@@ -1,0 +1,31 @@
+/*
+THEME NAME: Sandbox
+THEME URI: http://www.plaintxt.org/themes/sandbox/
+DESCRIPTION: Rich with powerful and dynamic semantic class selectors, Sandbox is a canvas for CSS artists
+VERSION: 1.6.1
+AUTHOR: <a href="http://andy.wordpress.com/">Andy Skelton</a> &amp; <a href="http://www.plaintxt.org/">Scott Allan Wallick</a>
+AUTHOR URI:
+TAGS: white, microformats, fixed-width, flexible-width, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar
+*/
+/*BASELINE STYLES*/body {font-family: Georgia, Times New Roman, Times, serif;font-size: 1.2em;background: url(images/bg-body.png) 0 0 repeat;}b, strong {font-weight: bold}em, i {font-style: italic}
+/*GENERIC CLASSES */.alignright,img.alignright{float:right;margin:1em 0 0 1em;}.alignleft,img.alignleft{float:left;margin:1em 1em 0 0;}.aligncenter,img.aligncenter{display:block;margin:1em auto;text-align:center;}.clear {clear: both}.content-header-strip{background: url(images/bg-header-strip-sprite.png) repeat-x 0 0;height: 4px;width: 100%;}.double-title {background: url(images/divider-dotted-double.png) bottom left repeat-x;margin-bottom:15px;padding:0 0 6px;}/*WRAPPERS */#wrapper {clear:both;width: 989px;margin: 0 auto;}.main-panel {clear: both;-moz-box-shadow: 0px 0px 10px #aaa;-webkit-box-shadow: 0px 0px 10px #aaa;}.main-panel#main-content {margin-top: 14px;background-color: #fff;}.main-content-body {width: 575px;margin: 30px 0 0 30px;}/*SITE HEADER */#header-strip { width: 100%;height: 7px;background: url(images/bg-header-strip-sprite.png) 0 -4px;}#header-top {padding: 35px 0 10px 0}#site-title {float: left}#site-title a{display:block;background: url(images/logo-egp.png) 0 0 no-repeat;width: 423px;height: 80px;text-indent: -5000px;}#site-search {float:right}
+/* MENU */#site-nav {height: 48px;background: url(images/bg-nav-sprite.png) 0 0 repeat-x;}#site-nav ul,#site-nav ul ul {line-height:1;list-style:none;margin:0;padding:0;}
+#site-nav ul li {background: url(images/nav-divider-vert.png) top right repeat-y;float:left;}#site-nav ul li:hover, #site-nav ul li.current_page_item {background: url(images/nav-divider-vert-sprite.png) top right no-repeat;}#site-nav ul li a {display:block;margin: 0 24px;height: 48px;background-position: center center;background-repeat: no-repeat;text-indent: -5000px}#site-nav ul ul li a{text-indent: 0}#site-nav ul li ul {
+left:-999em;
+position:absolute;
+}#site-nav ul li:hover ul {
+left:auto;
+}
+/* specific menu link replacement */#site-nav ul li.page-item-4 a {background-image: url(images/nav-about.png);width: 48px;}/*MAIN PANEL *//*SIDEBAR*/#sidebar-wrap {float:right;padding-top: 33px;}.sidebar {margin: 0 30px 0 0;width: 316px;font-size: 15px;letter-spacing: -0.02em;color: #767676;}.sidebar b, .sidebar strong {font-style: normal;color: #584730}.sidebar#primary ul > div {border: 1px solid #dbdbdb;margin: 0 0 30px 0;-moz-box-shadow: 0px 0px 10px #aaa;-webkit-box-shadow: 0px 0px 10px #aaa;padding: 25px;line-height: 25px}.sidebar ul ul li {list-style:disc;margin:0;}.sidebar ul ul ul li {list-style:circle;}.sidebar p {}.sidebar h3.widget-title {background: url(images/divider-dotted.png) bottom left repeat-x;padding: 0 0 4px 0;margin-bottom: 15px;}.button-nominate {margin-top: 15px;display:block}/* HOME */.home .header-mural {height: 184px;width: 100%;background-color: #999} #home-byline {margin-bottom: 17px;}.home-rand-img {width: 206px; height: 181px; float:left; background: #ccc; margin-right: 20px;}#home-content-text {margin-left: 225px;font-size: 13px;color: #4e3e2a;line-height: 24px;}#home-extra-links {margin-bottom: 30px;}.home-extra-link {background: #629cab;padding: 0 25px;margin-right: 13px;font-size: 11px; font-weight: bold;color: #fff;float: left;line-height: 25px;text-transform: uppercase;display: block;-moz-box-shadow: 2px 2px 0 #bababa;-webkit-box-shadow: 2px 2px 0 #bababa}#home-featured-esssays {width: 548px;clear: both;margin: 36px 0 0 0;}/*GALLERY*/
+div.gallery {
+clear:both;height:180px;margin:1em 0;width:100%;}
+div.gallery dl{margin:1em auto;overflow:hidden;text-align:center;}
+div.gallery dl.gallery-columns-1 {width:100%;}
+div.gallery dl.gallery-columns-2 {width:49%;}
+div.gallery dl.gallery-columns-3 {width:33%;}
+div.gallery dl.gallery-columns-4 {width:24%;}
+div.gallery dl.gallery-columns-5 {width:19%;}div.sidebar input#s {width:7em;}
+
+
+/*COMMENTS*/
+textarea#comment {height:13em;margin:0 0 0.5em;overflow:auto;width:66%;}
